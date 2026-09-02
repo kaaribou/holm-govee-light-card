@@ -1,0 +1,21 @@
+{
+  "name": "govee-like-light-card-holm",
+  "version": "0.1.0",
+  "description": "Carte Lovelace moderne (glassmorphism) pour les lumières Govee, avec sélecteur de scènes graphique.",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit && esbuild src/govee-like-light-card.ts --bundle --format=esm --target=es2021 --tsconfig=tsconfig.json --outfile=dist/govee-like-light-card.js --minify",
+    "build:dev": "esbuild src/govee-like-light-card.ts --bundle --format=esm --target=es2021 --tsconfig=tsconfig.json --outfile=dist/govee-like-light-card.js --sourcemap",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["home-assistant", "lovelace", "govee"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.8.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}

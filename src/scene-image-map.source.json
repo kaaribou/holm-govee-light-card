@@ -1,0 +1,744 @@
+{
+  "Ghost": {
+    "press": "869b11becb7940a0b3f132c31c2660df-E9ACBCE9AD82_press.png",
+    "dark": "158e859e924cebbd02e4cf883f3112aa-E9ACBCE9AD82_dark.png",
+    "confidence": "high",
+    "source_slug": "E9ACBCE9AD82",
+    "note": "鬼魂 = ghost/spirit"
+  },
+  "Siren": {
+    "press": "313af9b4f6adccb3df9532fdefd6fcff-new_light_btn_scenes_alarm_press403x.png",
+    "dark": "ec3543d9b6c9501c198c7387fd5cd7ee-new_light_btn_scenes_alarm_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "alarm",
+    "note": "english word, generic alarm/siren icon"
+  },
+  "A&M": {
+    "press": "fd9d830dcf362b1b8f288fc7376982de-new_light_btn_scenes_am.png",
+    "dark": null,
+    "confidence": "high",
+    "source_slug": "am",
+    "note": "slug strips special chars from 'A&M'"
+  },
+  "White Light": {
+    "press": "a4528d316c9a5f814ef0bf11a6ab3f10-new_light_btn_scenes_baiguang_press.png",
+    "dark": "7a4d9dc5109585d677b1cb08f2de622f-new_light_btn_scenes_baiguang_dark.png",
+    "confidence": "high",
+    "source_slug": "baiguang",
+    "note": "白光 = white light"
+  },
+  "Birthday": {
+    "press": "61ea786e489bb29a4056ee0eb3637cfe-new_light_btn_scenes_birthday_press403x.png",
+    "dark": "5401ad7197d70348c820b62b616709c5-new_light_btn_scenes_birthday_dark403x.png",
+    "confidence": "high",
+    "source_slug": "birthday",
+    "note": "exact english"
+  },
+  "Bonfire": {
+    "press": "8a00dfcab8ebe66338a713551007e029-new_light_btn_scenes_bonfire_press.png",
+    "dark": "bda3f3caf1915dbc56c5eb7bd93b31ad-new_light_btn_scenes_bonfire_dark.png",
+    "confidence": "high",
+    "source_slug": "bonfire",
+    "note": "exact english"
+  },
+  "Candlelight": {
+    "press": "c18ed5192dbf86cb67aa83dd165cadb1-new_light_btn_scenes_candle_press403x.png",
+    "dark": "a4c971916efa5f440150b296ffa9056e-new_light_btn_scenes_candle_dark403x.png",
+    "confidence": "high",
+    "source_slug": "candle",
+    "note": "exact english (candle)"
+  },
+  "Care": {
+    "press": "7a1cef6a4943d5a2a65ff46beb103a14-new_light_btn_scenes_care_press403x.png",
+    "dark": "06f9c7ef861609b15fbbbb1056791295-new_light_btn_scenes_care_dark403x.png",
+    "confidence": "high",
+    "source_slug": "care",
+    "note": "exact english"
+  },
+  "Carnival": {
+    "press": "cffe683801570c4fd98fc325b7d21add-new_light_btn_scenes_carnival_press403x.png",
+    "dark": "74d4abaac9644e41416bc331847293c8-new_light_btn_scenes_carnival_dark403x.png",
+    "confidence": "high",
+    "source_slug": "carnival",
+    "note": "exact english"
+  },
+  "Christmas": {
+    "press": "1b39f49fcf816d4fedd5009ddb223960-new_light_btn_scenes_christmas_press403x.png",
+    "dark": "1e782af903c0f18d6cec9208cdaea638-new_light_btn_scenes_christmas_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "christmas",
+    "note": "generic christmas base icon"
+  },
+  "Christmas-A": {
+    "press": "1b39f49fcf816d4fedd5009ddb223960-new_light_btn_scenes_christmas_press403x.png",
+    "dark": "1e782af903c0f18d6cec9208cdaea638-new_light_btn_scenes_christmas_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "christmas",
+    "note": "generic christmas base icon"
+  },
+  "Cornfield": {
+    "press": "e07b01a769700d32fa5528b806ff569f-new_light_btn_scenes_cornfield_press403x.png",
+    "dark": "5bb03f6ac5e707745b65b01362dc8b92-new_light_btn_scenes_cornfield_dark403x.png",
+    "confidence": "high",
+    "source_slug": "cornfield",
+    "note": "exact english"
+  },
+  "Dancing": {
+    "press": "7ed0b9678d23ec4a1cd6f3225726ee60-new_light_btn_scenes_dance_wave_press403x.png",
+    "dark": "59d79dfe5229b8147cd446d1566b9302-new_light_btn_scenes_dance_wave_dark403x.png",
+    "confidence": "low",
+    "source_slug": "dance_wave",
+    "note": "guess - 'dance wave' motion, could be Dance Party instead"
+  },
+  "Desert": {
+    "press": "1391f99fd4140976565c986446d8e5e4-new_light_btn_scenes_desert_press403x.png",
+    "dark": "d031b536ad574eea9bd3df1eb07e23a3-new_light_btn_scenes_desert_dark403x.png",
+    "confidence": "high",
+    "source_slug": "desert",
+    "note": "exact english"
+  },
+  "Earth": {
+    "press": "681eeb2b6742380b30d891b0de0a38ed-new_light_btn_scenes_diqiu_press.png",
+    "dark": "23c704ac48bdcc784ac9e5a9409356c7-new_light_btn_scenes_diqiu_dark.png",
+    "confidence": "high",
+    "source_slug": "diqiu",
+    "note": "地球 = Earth (planet set)"
+  },
+  "Dreamland": {
+    "press": "2e0aba09ffe4eb031c3b4b003f7f4326-new_light_btn_scenes_dreamland_press403x.png",
+    "dark": "f05f2b087f106925854cac08313c4fe0-new_light_btn_scenes_dreamland_dark403x.png",
+    "confidence": "high",
+    "source_slug": "dreamland",
+    "note": "exact english"
+  },
+  "Fight": {
+    "press": "3964a401728018405fabd5b35456e0ac-new_light_btn_scenes_duikang_press.png",
+    "dark": "806df2757e45d5eb3ecb449f41c89c71-new_light_btn_scenes_duikang_dark.png",
+    "confidence": "high",
+    "source_slug": "duikang",
+    "note": "对抗 = confrontation/fight"
+  },
+  "Cloudy": {
+    "press": "b05167bb0c8b6f4e860ff5b303b180df-new_light_btn_scenes_duoyun_press.png",
+    "dark": "a9faf2c4b037abb03a72ccb8a416b50c-new_light_btn_scenes_duoyun_dark.png",
+    "confidence": "high",
+    "source_slug": "duoyun",
+    "note": "多云 = cloudy"
+  },
+  "Easter": {
+    "press": "cc3208fd22a812e02895b7c5292af70b-new_light_btn_scenes_easter_press.png",
+    "dark": "3f21e3f189f10de99d09f590147e7913-new_light_btn_scenes_easter_dark.png",
+    "confidence": "high",
+    "source_slug": "easter",
+    "note": "exact english"
+  },
+  "Children's Day": {
+    "press": "dfa93db594ef32efcd01f4d4eb5c02b5-new_light_btn_scenes_ertongjie_press.png",
+    "dark": "a92bf7e64d786d61e9791cdee361347b-new_light_btn_scenes_ertongjie_dark.png",
+    "confidence": "high",
+    "source_slug": "ertongjie",
+    "note": "儿童节 = Children's Day"
+  },
+  "Excited": {
+    "press": "3d8c6c9f7e99851fdb86b0e75b9a124d-new_light_btn_scenes_excited_press403x.png",
+    "dark": "fa2e3f25853412f23184c3d6ef1942d7-new_light_btn_scenes_excited_dark403x.png",
+    "confidence": "high",
+    "source_slug": "excited",
+    "note": "exact english"
+  },
+  "Fall": {
+    "press": "bbdd0096b29a8b5d5439d912e4962450-new_light_btn_scenes_fall_press403x.png",
+    "dark": "fff64afab08960196984e3e3dc08260a-new_light_btn_scenes_fall_dark403x.png",
+    "confidence": "high",
+    "source_slug": "fall",
+    "note": "exact english"
+  },
+  "Dreamlike": {
+    "press": "948aca8c0ac48e5267d14e7e825d5dfd-new_light_btn_scenes_fantasy_press.png",
+    "dark": "71dc811a5b255b1ca1b79e672f2cf06e-new_light_btn_scenes_fantasy_dark.png",
+    "confidence": "medium",
+    "source_slug": "fantasy",
+    "note": "fantasy ~ dreamlike"
+  },
+  "Father's Day": {
+    "press": "24111abfe34bd6f6c8488390ea64e42f-new_light_btn_scenes_fathers_press403x.png",
+    "dark": "af511cacbfb63386c565cc773d376f12-new_light_btn_scenes_fathers_dark403x.png",
+    "confidence": "high",
+    "source_slug": "fathers",
+    "note": "exact english"
+  },
+  "Crazy": {
+    "press": "eca2bb5df5012eef6e28dcd94ac6022d-new_light_btn_scenes_fengkuang_press.png",
+    "dark": "34c0fdc839c22814933fcbd44b1cf5bb-new_light_btn_scenes_fengkuang_dark.png",
+    "confidence": "high",
+    "source_slug": "fengkuang",
+    "note": "疯狂 = crazy"
+  },
+  "Fireworks": {
+    "press": "e09ce9e9f996911d497fdbe2df6d6608-new_light_btn_scenes_fireworks_press403x.png",
+    "dark": "0c44ced83dff4b6991c9709a35d558b7-new_light_btn_scenes_fireworks_dark403x.png",
+    "confidence": "high",
+    "source_slug": "fireworks",
+    "note": "exact english"
+  },
+  "The Piano": {
+    "press": "191ba94a8bcca3160a437fa277cfb5f5-new_light_btn_scenes_gangqinjian_press.png",
+    "dark": "6110ad665abff0d659fd0366e53e261a-new_light_btn_scenes_gangqinjian_dark.png",
+    "confidence": "high",
+    "source_slug": "gangqinjian",
+    "note": "钢琴键 = piano key"
+  },
+  "Glacier": {
+    "press": "f12669c3f805fe8ccb8e33190f82f042-new_light_btn_scenes_glacier_press403x.png",
+    "dark": "ff358aa5aa88373858a4c2ecec5335a4-new_light_btn_scenes_glacier_dark403x.png",
+    "confidence": "high",
+    "source_slug": "glacier",
+    "note": "exact english"
+  },
+  "Grassland": {
+    "press": "f15a8793396294fb0e185c72394fd173-new_light_btn_scenes_grassland_press403x.png",
+    "dark": "c240777091576a8af1bcfad3e7044fa2-new_light_btn_scenes_grassland_dark403x.png",
+    "confidence": "high",
+    "source_slug": "grassland",
+    "note": "exact english"
+  },
+  "Forest": {
+    "press": "942511433fb7ed20cde18ee557d1eb2a-new_light_btn_scenes_green_forest_press403x.png",
+    "dark": "9a2b148cc02374c1feeede17c0662901-new_light_btn_scenes_green_forest_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "green_forest",
+    "note": "likely alt icon for Forest"
+  },
+  "Candy Cane": {
+    "press": "287e942e8a2215bd08a6fcb3546a4e17-new_light_btn_scenes_guaizhangtang_press.png",
+    "dark": "5952b04ac6934755f04e65c1ba3ba1e7-new_light_btn_scenes_guaizhangtang_dark.png",
+    "confidence": "high",
+    "source_slug": "guaizhangtang",
+    "note": "拐杖糖 = candy cane"
+  },
+  "Neptune": {
+    "press": "781cf7f2787e4a61dc58f1b066b51cf0-new_light_btn_scenes_haiwangxing_press.png",
+    "dark": "49e6f519ee77829a0c4127637752ef9a-new_light_btn_scenes_haiwangxing_dark.png",
+    "confidence": "high",
+    "source_slug": "haiwangxing",
+    "note": "海王星 = Neptune (planet set)"
+  },
+  "Halloween": {
+    "press": "76b6f8b7bb34cea5f9497620dd0da49f-new_light_btn_scenes_halloween_press403x.png",
+    "dark": "b3a3807ff048ce1c3b159a20ab90d5ce-new_light_btn_scenes_halloween_dark403x.png",
+    "confidence": "high",
+    "source_slug": "halloween",
+    "note": "exact english (base icon)"
+  },
+  "Flower Field": {
+    "press": "b180d6641badbe961bdbdcdb90cd374b-new_light_btn_scenes_huahai_press403x.png",
+    "dark": "58793e611dc304a9d81b752a4d6f6684-new_light_btn_scenes_huahai_dark403x.png",
+    "confidence": "high",
+    "source_slug": "huahai",
+    "note": "花海 = sea of flowers"
+  },
+  "Joyful": {
+    "press": "e4af51bd8f0736975722fc2c4fb96968-new_light_btn_scenes_huanle_press.png",
+    "dark": "c9d72fd64e1d4df452cffb3756daed84-new_light_btn_scenes_huanle_dark.png",
+    "confidence": "high",
+    "source_slug": "huanle",
+    "note": "欢乐 = joyful"
+  },
+  "Mars": {
+    "press": "87c29f5be70fda80b74d941d178c4ff0-new_light_btn_scenes_huoxing_press.png",
+    "dark": "433a33b05031d51cac9d44abd6df5ddc-new_light_btn_scenes_huoxing_dark.png",
+    "confidence": "high",
+    "source_slug": "huoxing",
+    "note": "火星 = Mars (planet set)"
+  },
+  "Venus": {
+    "press": "c54aa5aa40b123ea1482b41ac7eb1f0a-new_light_btn_scenes_jinxing_press.png",
+    "dark": "327ac0d06b94ca689a169e9b4d08679e-new_light_btn_scenes_jinxing_dark.png",
+    "confidence": "high",
+    "source_slug": "jinxing",
+    "note": "金星 = Venus (planet set)"
+  },
+  "Dine Together": {
+    "press": "f8606c28bf0259bd1dca45fdb7a84fff-new_light_btn_scenes_jucan_press.png",
+    "dark": "434f0d0f2b42d17d49f27e2b4f4b7d4f-new_light_btn_scenes_jucan_dark.png",
+    "confidence": "high",
+    "source_slug": "jucan",
+    "note": "聚餐 = dining together"
+  },
+  "Karst Cave": {
+    "press": "6409e4614e680f44fa9266daeca4c9d5-new_light_btn_scenes_karst_press403x.png",
+    "dark": "7214d42eed26f1effca53b36308a8b2d-new_light_btn_scenes_karst_dark403x.png",
+    "confidence": "high",
+    "source_slug": "karst",
+    "note": "exact-ish english"
+  },
+  "Fright": {
+    "press": "71f9aeeba5341874f33884f7d1dc0274-new_light_btn_scenes_kongbu_press.png",
+    "dark": "4c954ff1a7ff706b11de401756db70c9-new_light_btn_scenes_kongbu_dark.png",
+    "confidence": "high",
+    "source_slug": "kongbu",
+    "note": "恐怖 = horror/fright"
+  },
+  "Dashing Sleigh": {
+    "press": "47fb72b41500c393548312666b29637d-new_light_btn_scenes_laxueqiao_press.png",
+    "dark": "80dd878688bcd721888991b8b2090118-new_light_btn_scenes_laxueqiao_dark.png",
+    "confidence": "high",
+    "source_slug": "laxueqiao",
+    "note": "拉雪橇 = pulling a sleigh"
+  },
+  "Thunderstorm": {
+    "press": "f0e2a43e3b770fa7ab3dbce1bc992ed8-new_light_btn_scenes_leiyu_press.png",
+    "dark": "b7f8fcbe23882f8d646da26974ad4169-new_light_btn_scenes_leiyu_dark.png",
+    "confidence": "high",
+    "source_slug": "leiyu",
+    "note": "雷雨 = thunderstorm"
+  },
+  "Christmas Gift": {
+    "press": "c1c279e7b9c677d167ef6b85938211c9-new_light_btn_scenes_liwu_press.png",
+    "dark": "3fa20a3e4b3ec5e674c6b4aecc3cc71f-new_light_btn_scenes_liwu_dark.png",
+    "confidence": "medium",
+    "source_slug": "liwu",
+    "note": "礼物 = gift (could also be 'Delivering Gifts')"
+  },
+  "Cherry blossoms": {
+    "press": "c61b6282c37b88eba132124af5f4545a-new_light_btn_scenes_luoying_press.png",
+    "dark": "9d3c40fc3ccd351f7704f7b8ab10f6d0-new_light_btn_scenes_luoying_dark.png",
+    "confidence": "high",
+    "source_slug": "luoying",
+    "note": "落樱 = falling cherry blossoms"
+  },
+  "Meditation": {
+    "press": "f4dd5a45696f4696978a3108a61fcd76-new_light_btn_scenes_meditation_press403x.png",
+    "dark": "402d25f0ccd33f4d83f2d8412e74b808-new_light_btn_scenes_meditation_dark403x.png",
+    "confidence": "high",
+    "source_slug": "meditation",
+    "note": "exact english"
+  },
+  "Meditation (1)": {
+    "press": "f4dd5a45696f4696978a3108a61fcd76-new_light_btn_scenes_meditation_press403x.png",
+    "dark": "402d25f0ccd33f4d83f2d8412e74b808-new_light_btn_scenes_meditation_dark403x.png",
+    "confidence": "high",
+    "source_slug": "meditation",
+    "note": "exact english"
+  },
+  "Sunrise": {
+    "press": "e485c606078415fd1d044d380786f244-new_light_btn_scenes_morning_press403x.png",
+    "dark": "a76af9e9c06898981282d5fb74930645-new_light_btn_scenes_morning_dark403x.png",
+    "confidence": "low",
+    "source_slug": "morning",
+    "note": "guess - english 'morning', no exact HA match"
+  },
+  "Mother's Day": {
+    "press": "fffa33f839df5234ed8145bc6fe616ef-new_light_btn_scenes_mothers_press403x.png",
+    "dark": "568cdd1499627d0249ffda418a1cbc23-new_light_btn_scenes_mothers_dark403x.png",
+    "confidence": "high",
+    "source_slug": "mothers",
+    "note": "exact english"
+  },
+  "Jupiter": {
+    "press": "dea88b77afba2c0e025c340e68badf7e-new_light_btn_scenes_muxing_press.png",
+    "dark": "9ac249f568af5d1d3af260ae40167a82-new_light_btn_scenes_muxing_dark.png",
+    "confidence": "high",
+    "source_slug": "muxing",
+    "note": "木星 = Jupiter (planet set)"
+  },
+  "Mysterious": {
+    "press": "4687c3d680d0fd5675957fefdcf390e0-new_light_btn_scenes_mysterious_press403x.png",
+    "dark": "abe833fdcd34644837fd900e01c9c213-new_light_btn_scenes_mysterious_dark403x.png",
+    "confidence": "high",
+    "source_slug": "mysterious",
+    "note": "exact english"
+  },
+  "Jack-o'-lantern": {
+    "press": "58a44f437a3718ae1fbdd86eb6c2600b-new_light_btn_scenes_nanguadeng_press.png",
+    "dark": "757b8bf8b00cf54517518529bf5640a6-new_light_btn_scenes_nanguadeng_dark.png",
+    "confidence": "high",
+    "source_slug": "nanguadeng",
+    "note": "南瓜灯 = pumpkin lantern"
+  },
+  "Neon City": {
+    "press": "f277ea266cc3af4b99136a3e0918e272-new_light_btn_scenes_nihongchengshi_press.png",
+    "dark": "3a17f397a1ed811e934eb6f76e1b599f-new_light_btn_scenes_nihongchengshi_dark.png",
+    "confidence": "high",
+    "source_slug": "nihongchengshi",
+    "note": "霓虹城市 = neon city"
+  },
+  "Aurora": {
+    "press": "fb10d7e26a71b57f1e03736e123c2494-new_light_btn_scenes_northern_light_press403x.png",
+    "dark": "612b6d13221d3814f225b7a8435dc1b2-new_light_btn_scenes_northern_light_dark403x.png",
+    "confidence": "high",
+    "source_slug": "northern_light",
+    "note": "northern lights = aurora"
+  },
+  "Party-A": {
+    "press": "fa36d11000d0913769d14990163ee75d-new_light_btn_scenes_party_press403x.png",
+    "dark": "2fdd3bf5c38d5d3c10f9748b4b22f26c-new_light_btn_scenes_party_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "party",
+    "note": "generic party base icon"
+  },
+  "Party-B": {
+    "press": "fa36d11000d0913769d14990163ee75d-new_light_btn_scenes_party_press403x.png",
+    "dark": "2fdd3bf5c38d5d3c10f9748b4b22f26c-new_light_btn_scenes_party_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "party",
+    "note": "generic party base icon"
+  },
+  "Enthusiastic": {
+    "press": "357447e16b66908ed5514d11067e7270-new_light_btn_scenes_passionate_press403x.png",
+    "dark": "1d9645205249a2a0a73a6bfabe6ddf62-new_light_btn_scenes_passionate_dark403x.png",
+    "confidence": "low",
+    "source_slug": "passionate",
+    "note": "guess - passionate ~ enthusiastic"
+  },
+  "Dance Party": {
+    "press": "5c8b4e697adbd0a3b65f6f70f1457cae-new_light_btn_scenes_prom_press403x.png",
+    "dark": "e23a18a8bf7f3a83406a03324bd70099-new_light_btn_scenes_prom_dark403x.png",
+    "confidence": "low",
+    "source_slug": "prom",
+    "note": "guess - prom = a dance event"
+  },
+  "Light": {
+    "press": "01bcfecfaf93f1c1a5e8433e427d40d7-new_light_btn_scenes_qingkuai_press.png",
+    "dark": "9b704e99efc83f73f442be3ed8f67832-new_light_btn_scenes_qingkuai_dark.png",
+    "confidence": "low",
+    "source_slug": "qingkuai",
+    "note": "轻快 = light/brisk, ambiguous"
+  },
+  "Sunny": {
+    "press": "d940e21c4e9ab91b878e96cc4e6656ed-new_light_btn_scenes_qingtian_press.png",
+    "dark": "12ecd7c525e60fff6372f3577f8649e6-new_light_btn_scenes_qingtian_dark.png",
+    "confidence": "high",
+    "source_slug": "qingtian",
+    "note": "晴天 = sunny/clear sky"
+  },
+  "Refreshing": {
+    "press": "f2044fd2fb9905229a252e9ed3674e24-new_light_btn_scenes_qingxin_press.png",
+    "dark": "723b95ec815895747be59842908a8c90-new_light_btn_scenes_qingxin_dark.png",
+    "confidence": "high",
+    "source_slug": "qingxin",
+    "note": "清新 = fresh/refreshing"
+  },
+  "Quiet": {
+    "press": "d6cbf0cd40f5939f4cb17d7f32e51583-new_light_btn_scenes_quiet_press403x.png",
+    "dark": "5f20331777a395d06e62be31d2d29449-new_light_btn_scenes_quiet_dark403x.png",
+    "confidence": "high",
+    "source_slug": "quiet",
+    "note": "exact english"
+  },
+  "Reading": {
+    "press": "599fe425cd03417881c8b99b1548f53b-new_light_btn_scenes_reading_press403x.png",
+    "dark": "fe591a8a2a347ffef5d01958eeb1fef1-new_light_btn_scenes_reading_dark403x.png",
+    "confidence": "high",
+    "source_slug": "reading",
+    "note": "exact english"
+  },
+  "Release": {
+    "press": "c51e1d38c634f3bac852cc8cf1ad3d3b-new_light_btn_scenes_release_press403x.png",
+    "dark": "c43fc29b501ac75471336978eb00d2ae-new_light_btn_scenes_release_dark403x.png",
+    "confidence": "high",
+    "source_slug": "release",
+    "note": "exact english"
+  },
+  "Leisure": {
+    "press": "e4a0a56ffde980e090dc956389bb1655-new_light_btn_scenes_rest_press403x.png",
+    "dark": "421b1832b0a9e4d21845321b62c802d9-new_light_btn_scenes_rest_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "rest",
+    "note": "rest ~ leisure"
+  },
+  "Romantic": {
+    "press": "ff9294eb079dd33e1ac00c07bf0dee4d-new_light_btn_scenes_romantic_press403x.png",
+    "dark": "c1a56c643f682212b5311f53c5d45628-new_light_btn_scenes_romantic_dark403x.png",
+    "confidence": "high",
+    "source_slug": "romantic",
+    "note": "exact english"
+  },
+  "Mild": {
+    "press": "c271faf0d058acc013d44a69d9e2d0c0-new_light_btn_scenes_rouhe_press.png",
+    "dark": "72753b748e26e2f01778e3d23cfb526b-new_light_btn_scenes_rouhe_dark.png",
+    "confidence": "high",
+    "source_slug": "rouhe",
+    "note": "柔和 = soft/mild"
+  },
+  "Sleep": {
+    "press": "debfaa2cbd63ca8d3d5fc623a6a4d64c-new_light_btn_scenes_rumian_press.png",
+    "dark": "932b53b9b1474d1a76348085fc4ae263-new_light_btn_scenes_rumian_dark.png",
+    "confidence": "high",
+    "source_slug": "rumian",
+    "note": "入眠 = falling asleep"
+  },
+  "Wave": {
+    "press": "6046fe2de59ff1d382aaa25f3b7ae5b6-new_light_btn_scenes_sea_wave_press403x.png",
+    "dark": "8384b497c969ed95108c127c29354fab-new_light_btn_scenes_sea_wave_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "sea_wave",
+    "note": "sea wave ~ Wave"
+  },
+  "Mountain Forest": {
+    "press": "ae6b4ee07793b111ff18e0e50ad7db06-new_light_btn_scenes_shanlin_press403x.png",
+    "dark": "45373c55e884604dc9e549f4a29d8d4f-new_light_btn_scenes_shanlin_dark403x.png",
+    "confidence": "high",
+    "source_slug": "shanlin",
+    "note": "山林 = mountain forest"
+  },
+  "Christmas Tree": {
+    "press": "c7c7226a1b9d2e43d9ca2378015d94cc-new_light_btn_scenes_shegndanshu_press.png",
+    "dark": "3d066514c0e20e2219b9000c4243a53c-new_light_btn_scenes_shegndanshu_dark.png",
+    "confidence": "high",
+    "source_slug": "shegndanshu",
+    "note": "圣诞树 = christmas tree (typo in original filename)"
+  },
+  "Christmas Decor": {
+    "press": "09443f04b0dd80393921cb25b7ba54b8-new_light_btn_scenes_shengdanzhuangshi_press403x.png",
+    "dark": "bccf8f36baf7266f3b8eeadbeb663921-new_light_btn_scenes_shengdanzhuangshi_dark403x.png",
+    "confidence": "high",
+    "source_slug": "shengdanzhuangshi",
+    "note": "圣诞装饰 = christmas decoration"
+  },
+  "Blossom": {
+    "press": "916acb32b189c83be0383b2ce8cc0704-new_light_btn_scenes_shengkai_press.png",
+    "dark": "b15f0d07b779a1911b5d20037d3cd0c4-new_light_btn_scenes_shengkai_dark.png",
+    "confidence": "high",
+    "source_slug": "shengkai",
+    "note": "盛开 = blooming"
+  },
+  "Saint Patrick's Day": {
+    "press": "71d8178dc047f4c5869d721e78fbcda7-new_light_btn_scenes_shengpatelikejie_press.png",
+    "dark": "89b6d17e59d112964d427598204ba8a4-new_light_btn_scenes_shengpatelikejie_dark.png",
+    "confidence": "high",
+    "source_slug": "shengpatelikejie",
+    "note": "圣帕特里克节 = phonetic transliteration"
+  },
+  "Soothing": {
+    "press": "f0512cb3c767c591f5495c70a667a4c4-new_light_btn_scenes_shuhuan_press.png",
+    "dark": "acb1ea1dd99c8fce2749179683c6b583-new_light_btn_scenes_shuhuan_dark.png",
+    "confidence": "high",
+    "source_slug": "shuhuan",
+    "note": "舒缓 = soothing"
+  },
+  "Mercury": {
+    "press": "48cb94abc8b61414873ea6b95de132d6-new_light_btn_scenes_shuixing_press.png",
+    "dark": "5e19054192ebd2be750a9fc581789642-new_light_btn_scenes_shuixing_dark.png",
+    "confidence": "high",
+    "source_slug": "shuixing",
+    "note": "水星 = Mercury (planet set)"
+  },
+  "Sports": {
+    "press": "916c991aaf34e111e97e81a7801cf250-new_light_btn_scenes_sport_press403x.png",
+    "dark": "75dbe13c29545a80ca26e908833a8994-new_light_btn_scenes_sport_dark403x.png",
+    "confidence": "high",
+    "source_slug": "sport",
+    "note": "exact-ish english"
+  },
+  "Spring": {
+    "press": "2eca57558d8bcd1a6cba8a4fb7d923b5-new_light_btn_scenes_spring_press403x.png",
+    "dark": "c34335d5cebc5015430d598533d00407-new_light_btn_scenes_spring_dark403x.png",
+    "confidence": "high",
+    "source_slug": "spring",
+    "note": "exact english"
+  },
+  "Meteor": {
+    "press": "208bc1caa42e3f0535826e4589b39f38-new_light_btn_scenes_star_meteor_press403x.png",
+    "dark": "3dc3f90bf98458d289bd650d044f6692-new_light_btn_scenes_star_meteor_dark403x.png",
+    "confidence": "high",
+    "source_slug": "star_meteor",
+    "note": "exact-ish english"
+  },
+  "Starry Sky": {
+    "press": "7ee06dc3d64857db675a427d58d2bfc8-new_light_btn_scenes_star_sky_press403x.png",
+    "dark": "44db10066e879811b74aa2be25322cc3-new_light_btn_scenes_star_sky_dark403x.png",
+    "confidence": "high",
+    "source_slug": "star_sky",
+    "note": "exact-ish english"
+  },
+  "Summer": {
+    "press": "597856282239cb176467801e1802c0ff-new_light_btn_scenes_summer_press403x.png",
+    "dark": "87e8e88f42596685530986587a1a6e8c-new_light_btn_scenes_summer_dark403x.png",
+    "confidence": "high",
+    "source_slug": "summer",
+    "note": "exact english"
+  },
+  "Sunset": {
+    "press": "fc453d944fd5e97edfaa6a426f35438a-new_light_btn_scenes_sunset_press403x.png",
+    "dark": "73337f4bea682300e3d46243ae3d3316-new_light_btn_scenes_sunset_dark403x.png",
+    "confidence": "high",
+    "source_slug": "sunset",
+    "note": "exact english"
+  },
+  "Sunset Glow": {
+    "press": "eaff6809cd6e7e9bad90359c70152099-new_light_btn_scenes_sunset_glow_press403x.png",
+    "dark": "9d798432cecced92edf933e2c5d39c78-new_light_btn_scenes_sunset_glow_dark403x.png",
+    "confidence": "high",
+    "source_slug": "sunset_glow",
+    "note": "exact english"
+  },
+  "Swing": {
+    "press": "4ac3f02da69f1c4ddcab70b7386b20da-new_light_btn_scenes_swing_press403x.png",
+    "dark": "c990a64d21bdec0743fc7a03958bed48-new_light_btn_scenes_swing_dark403x.png",
+    "confidence": "high",
+    "source_slug": "swing",
+    "note": "exact english"
+  },
+  "Candy": {
+    "press": "58a549ca82db129c9054d3021a98c933-new_light_btn_scenes_tangguo_press.png",
+    "dark": "caaaa6f265b09996d8b6e6fea9907114-new_light_btn_scenes_tangguo_dark.png",
+    "confidence": "high",
+    "source_slug": "tangguo",
+    "note": "糖果 = candy"
+  },
+  "Fascination": {
+    "press": "276fa9be893cc876f32562e38e67d281-new_light_btn_scenes_taozui_press.png",
+    "dark": "a095560a8438fde44aa476d4cab9c9a8-new_light_btn_scenes_taozui_dark.png",
+    "confidence": "medium",
+    "source_slug": "taozui",
+    "note": "陶醉 = enchanted/intoxicated"
+  },
+  "Tension": {
+    "press": "810ea4cd552e872e01dbdbb31c05469a-new_light_btn_scenes_tension_press403x.png",
+    "dark": "1d4cf2e286886a8f52e19b256d2f5829-new_light_btn_scenes_tension_dark403x.png",
+    "confidence": "high",
+    "source_slug": "tension",
+    "note": "exact english"
+  },
+  "Thanksgiving": {
+    "press": "7d5682af58f3e8c4f53f78e42dfc7e76-new_light_btn_scenes_thanks_giving_press403x.png",
+    "dark": "2970975f8989fce8e1970624c207cb08-new_light_btn_scenes_thanks_giving_dark403x.png",
+    "confidence": "high",
+    "source_slug": "thanks_giving",
+    "note": "exact english"
+  },
+  "Uranus": {
+    "press": "6982ab5f1a5934b2d2654fbb7c8c0e18-new_light_btn_scenes_tianwangxing_press.png",
+    "dark": "256a9ebf935ed0df944b3892d0e515fb-new_light_btn_scenes_tianwangxing_dark.png",
+    "confidence": "high",
+    "source_slug": "tianwangxing",
+    "note": "天王星 = Uranus (planet set)"
+  },
+  "Saturn": {
+    "press": "00021f1a7874dc3687c7b5ac2da70486-new_light_btn_scenes_tuxing_press.png",
+    "dark": "6be9ea115cb0cd38e2b3cce0832265e3-new_light_btn_scenes_tuxing_dark.png",
+    "confidence": "high",
+    "source_slug": "tuxing",
+    "note": "土星 = Saturn (planet set)"
+  },
+  "Valentine's Day": {
+    "press": "1f2315b496393e7b9158e336eb44f20e-new_light_btn_scenes_valentines_press403x.png",
+    "dark": "6cfdcddb4d3a75310cdbfb231fe55478-new_light_btn_scenes_valentines_dark403x.png",
+    "confidence": "high",
+    "source_slug": "valentines",
+    "note": "exact english"
+  },
+  "Game": {
+    "press": "66b1289a9554b40e5ad6f5dc3103cc1d-new_light_btn_video_game_press403x.png",
+    "dark": "336973b5a6ef5c382b2a0df71bb650c5-new_light_btn_video_game_dark403x.png",
+    "confidence": "high",
+    "source_slug": "video_game",
+    "note": "exact-ish english"
+  },
+  "Colorful": {
+    "press": "1c11a305964105448a7841dd2835a847-new_light_btn_scenes_vivid_press403x.png",
+    "dark": "406221ccf9e763e73098cfb3da08edbd-new_light_btn_scenes_vivid_dark403x.png",
+    "confidence": "low",
+    "source_slug": "vivid",
+    "note": "vivid ~ colorful, guess"
+  },
+  "Halloween Night": {
+    "press": "578ab9c1032a65d1676ff920ba99e3f6-new_light_btn_scenes_wanchengye_press.png",
+    "dark": "affbc95fc82f5ee6b02d0659ee5369a9-new_light_btn_scenes_wanchengye_dark.png",
+    "confidence": "high",
+    "source_slug": "wanchengye",
+    "note": "万圣夜 = Halloween night"
+  },
+  "Warm": {
+    "press": "27cdbdec24b8f8056ae4afbbe954e7a8-new_light_btn_scenes_warm_hot_press403x.png",
+    "dark": "d40cf8be5dc7c1e20edac7591ed2e2a0-new_light_btn_scenes_warm_hot_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "warm_hot",
+    "note": "generic warm base icon"
+  },
+  "Warm B": {
+    "press": "27cdbdec24b8f8056ae4afbbe954e7a8-new_light_btn_scenes_warm_hot_press403x.png",
+    "dark": "d40cf8be5dc7c1e20edac7591ed2e2a0-new_light_btn_scenes_warm_hot_dark403x.png",
+    "confidence": "medium",
+    "source_slug": "warm_hot",
+    "note": "generic warm base icon"
+  },
+  "Breeze": {
+    "press": "300a4caa18cb7170260030ff1eec9aef-new_light_btn_scenes_weifeng_press.png",
+    "dark": "92b04b55615edb6a669c5726d43dc43e-new_light_btn_scenes_weifeng_dark.png",
+    "confidence": "high",
+    "source_slug": "weifeng",
+    "note": "微风 = breeze"
+  },
+  "Winter": {
+    "press": "26cb78042ef30bd64a2ef74de1a9be07-new_light_btn_scenes_winter_press403x.png",
+    "dark": "775ede6eff53b0d4ebe280d411aafa36-new_light_btn_scenes_winter_dark403x.png",
+    "confidence": "high",
+    "source_slug": "winter",
+    "note": "exact english"
+  },
+  "Work": {
+    "press": "bef75806198dfb950fb3a6ff91e91a51-new_light_btn_scenes_work_press403x.png",
+    "dark": "54cdb47ad7fc9162da43cd3bddf000de-new_light_btn_scenes_work_dark403x.png",
+    "confidence": "high",
+    "source_slug": "work",
+    "note": "exact english"
+  },
+  "Nebula": {
+    "press": "5c0b888be6134cc0494109c2de75c7c5-new_light_btn_scenes_xingyun_press.png",
+    "dark": "760d983d949811607ed6d92ae87723a2-new_light_btn_scenes_xingyun_dark.png",
+    "confidence": "high",
+    "source_slug": "xingyun",
+    "note": "星云 = nebula"
+  },
+  "Spin": {
+    "press": "f38cdf3e558025bade406e8cbdcc3ca4-new_light_btn_scenes_xuanzhuan_press.png",
+    "dark": "6b0fdf4281c34856b9266922b3802a28-new_light_btn_scenes_xuanzhuan_dark.png",
+    "confidence": "high",
+    "source_slug": "xuanzhuan",
+    "note": "旋转 = spin/rotate"
+  },
+  "Sunshine": {
+    "press": "ceb8db30933436b294b586a70133793f-new_light_btn_scenes_yangguang_press.png",
+    "dark": "175c0fa39d325b84873d9012a2f0b2d1-new_light_btn_scenes_yangguang_dark.png",
+    "confidence": "high",
+    "source_slug": "yangguang",
+    "note": "阳光 = sunshine"
+  },
+  "Firefly": {
+    "press": "f1d79404c17ef9d61e2f79e365609e52-new_light_btn_scenes_yinghuo_press.png",
+    "dark": "68065858cc85b6237c0ee78f3a93f0ea-new_light_btn_scenes_yinghuo_dark.png",
+    "confidence": "high",
+    "source_slug": "yinghuo",
+    "note": "萤火 = firefly"
+  },
+  "Milky Way": {
+    "press": "d0de824dee543fe8bb64f32deeb26c7c-new_light_btn_scenes_yinhe_press.png",
+    "dark": "0f36d5f2eebc8c97f3dde5e8f84cdd22-new_light_btn_scenes_yinhe_dark.png",
+    "confidence": "high",
+    "source_slug": "yinhe",
+    "note": "银河 = milky way"
+  },
+  "Healing": {
+    "press": "ac2d876105e2422f6dcd5fe4b8174208-new_light_btn_scenes_zhiyu_press.png",
+    "dark": "995e6fc3ba8248ffae1e1e8aeb35a868-new_light_btn_scenes_zhiyu_dark.png",
+    "confidence": "high",
+    "source_slug": "zhiyu",
+    "note": "治愈 = healing"
+  },
+  "Beer Festival": {
+    "press": "96b372c327f8f1dc23c1af7af0d22180-new_light_btn_scenes_pijiujie_press.png",
+    "dark": "c4a50f2b727c028f513cfdeebf875856-new_light_btn_scenes_pijiujie_dark.png",
+    "confidence": "high",
+    "source_slug": "pijiujie",
+    "note": "啤酒节 = beer festival"
+  },
+  "Beer": {
+    "press": "96b372c327f8f1dc23c1af7af0d22180-new_light_btn_scenes_pijiujie_press.png",
+    "dark": "c4a50f2b727c028f513cfdeebf875856-new_light_btn_scenes_pijiujie_dark.png",
+    "confidence": "high",
+    "source_slug": "pijiujie",
+    "note": "啤酒节 = beer festival"
+  }
+}
