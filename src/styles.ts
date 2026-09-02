@@ -33,6 +33,7 @@ export const cardStyles = css`
 
   ha-card.is-off {
     --govee-current-tint: rgba(20, 26, 32, 0.6);
+    padding: 12px 18px;
   }
 
   .header {
@@ -40,6 +41,10 @@ export const cardStyles = css`
     align-items: center;
     gap: 12px;
     margin-bottom: 14px;
+  }
+
+  ha-card.is-off .header {
+    margin-bottom: 0;
   }
 
   .header .icon-wrap {
