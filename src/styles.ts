@@ -31,6 +31,16 @@ export const cardStyles = css`
     transition: background 0.6s ease;
   }
 
+  /* While actively dragging the color wheel or brightness bar, the tint is
+     updated on every animation frame — a lingering CSS transition on the
+     background would replay through each intermediate value, producing a
+     laggy rainbow "trail" behind the pointer. Cut the transition for the
+     duration of the drag; it resumes for state changes that come from
+     elsewhere (an automation, another card, a scene). */
+  ha-card.no-transition {
+    transition: none;
+  }
+
   ha-card.is-off {
     --govee-current-tint: rgba(20, 26, 32, 0.6);
     padding: 12px 18px;

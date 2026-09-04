@@ -207,6 +207,11 @@ export class GoveeLikeLightCard extends LitElement {
 
     const tint = isOn ? this._tintFor(rgb, brightnessPct) : undefined;
 
+    // Only actual pointer-drags on the wheel/brightness bar should suppress
+    // the card's background transition — not the temperature slider (it
+    // doesn't affect `tint`) or the music sensitivity slider.
+    const isDraggingTint = this._draggingHue !== null || this._draggingSat !== null || this._draggingBrightness !== null;
+
     const icon = this._config.icon || attrs.icon || "mdi:led-strip-variant";
     const iconColor = this._config.icon_color
       ? rgbToCss(this._config.icon_color)
@@ -214,9 +219,11 @@ export class GoveeLikeLightCard extends LitElement {
         ? thumbColor
         : undefined;
 
+    const cardClass = [isOn ? "" : "is-off", isDraggingTint ? "no-transition" : ""].filter(Boolean).join(" ");
+
     return html`
       <ha-card
-        class=${isOn ? "" : "is-off"}
+        class=${cardClass}
         style=${tint ? `--govee-current-tint: ${tint}` : ""}
       >
         <div class="header">
