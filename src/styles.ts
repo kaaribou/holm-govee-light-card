@@ -109,9 +109,9 @@ export const cardStyles = css`
     position: absolute;
     inset: 0;
     width: 40%;
-    background: linear-gradient(90deg, var(--govee-accent-2), var(--govee-accent));
+    background: var(--govee-slider-fill, linear-gradient(90deg, var(--govee-accent-2), var(--govee-accent)));
     opacity: 0.85;
-    transition: width 0.08s linear;
+    transition: width 0.08s linear, background 0.3s ease;
   }
 
   .slider .label {

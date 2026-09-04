@@ -69,6 +69,12 @@ export class GoveeLikeLightCard extends LitElement {
 
   private _rafPending = false;
 
+  // Govee scenes/effects don't always report a live rgb_color back from the
+  // cloud API (per the integration's own known limitation), so the last real
+  // color we saw is kept around and reused for the icon/background tint
+  // rather than snapping to a neutral white the moment an effect starts.
+  private _lastKnownRgb: [number, number, number] | null = null;
+
   setConfig(config: GoveeCardConfig) {
     if (!config.entity) {
       throw new Error("Il faut renseigner une entité `entity` (light.xxx Govee)");
@@ -184,11 +190,20 @@ export class GoveeLikeLightCard extends LitElement {
     const brightnessPct =
       this._draggingBrightness ?? (isOn ? Math.round(((attrs.brightness ?? 255) / 255) * 100) : 0);
 
-    const rgb: [number, number, number] = attrs.rgb_color ?? [255, 255, 255];
+    const rgbFromState: [number, number, number] | undefined = attrs.rgb_color;
+    if (isOn && rgbFromState) this._lastKnownRgb = rgbFromState;
+    const rgb: [number, number, number] = rgbFromState ?? this._lastKnownRgb ?? [255, 255, 255];
     const [hueFromState, satFromState] = rgbToHsv(rgb[0], rgb[1], rgb[2]);
     const hue = this._draggingHue ?? hueFromState;
     const sat = this._draggingSat ?? satFromState;
     const thumbColor = rgbToCss(hsvToRgb(hue, sat, 1));
+    // Brightness bar fill: dim-to-full gradient of the light's own current hue,
+    // so the bar's color matches whatever color/scene is active instead of a
+    // fixed brand teal. Only when the light actually supports color — a
+    // color_temp-only light keeps the default teal gradient.
+    const brightnessFillStyle = supportsColor
+      ? `--govee-slider-fill: linear-gradient(90deg, ${rgbToCss(hsvToRgb(hue, sat, 0.35))}, ${thumbColor})`
+      : "";
 
     const tint = isOn ? this._tintFor(rgb, brightnessPct) : undefined;
 
@@ -224,6 +239,7 @@ export class GoveeLikeLightCard extends LitElement {
               <div class="brightness-row">
                 <div
                   class="slider brightness"
+                  style=${brightnessFillStyle}
                   @pointerdown=${(e: PointerEvent) => this._startBrightnessDrag(e)}
                 >
                   <div class="fill" style="width:${brightnessPct}%"></div>
@@ -295,10 +311,14 @@ export class GoveeLikeLightCard extends LitElement {
   // ---------- color wheel ----------
 
   private _renderColorWheel(hue: number, sat: number, thumbColor: string) {
+    // `hue` follows a compass-bearing convention (0deg = up/north, clockwise),
+    // matching the CSS conic-gradient below (which also starts at the top and
+    // sweeps clockwise) — NOT the standard math-angle convention (0 = east).
+    // Keep this in sync with _startWheelDrag's atan2(dx, -dy).
     const angle = (hue * Math.PI) / 180;
     const radius = sat * 78; // px, wheel radius ~85 minus thumb margin
-    const cx = 85 + radius * Math.cos(angle);
-    const cy = 85 + radius * Math.sin(angle);
+    const cx = 85 + radius * Math.sin(angle);
+    const cy = 85 - radius * Math.cos(angle);
     const wheelBg = `conic-gradient(from 0deg, red, yellow, lime, cyan, blue, magenta, red)`;
     return html`
       <div class="wheel-wrap">
@@ -322,7 +342,9 @@ export class GoveeLikeLightCard extends LitElement {
       const cy = rect.top + rect.height / 2;
       const dx = ev.clientX - cx;
       const dy = ev.clientY - cy;
-      let angle = (Math.atan2(dy, dx) * 180) / Math.PI;
+      // Compass-bearing angle (0deg = up/north, clockwise) so this matches
+      // the wheel's CSS conic-gradient and _renderColorWheel's thumb placement.
+      let angle = (Math.atan2(dx, -dy) * 180) / Math.PI;
       if (angle < 0) angle += 360;
       const dist = Math.min(1, Math.sqrt(dx * dx + dy * dy) / (rect.width / 2));
       this._draggingHue = angle;

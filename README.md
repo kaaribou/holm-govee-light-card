@@ -96,9 +96,24 @@ npm run build:dev   # build avec sourcemap, sans minification
 npm run typecheck   # tsc --noEmit
 ```
 
-## Roadmap (phase 2)
+## Presets (drapeaux, motifs...)
 
-- Contrôle des segments RGBIC (`light.xxx_segment_N`) avec un mini color-picker
-  par segment
+Pas de contrôle de segments RGBIC dans la carte : l'API cloud Govee est trop
+limitée en requêtes/minute pour piloter un clignotement en direct depuis la
+carte de façon fiable. À la place, crée l'effet directement dans l'appli
+Govee (couleurs par segment + dynamisme/clignotement natif) et enregistre-le
+comme scène DIY — il apparaîtra automatiquement dans l'onglet Scènes/DIY de
+la carte, comme n'importe quelle autre scène.
+
+## Aperçu couleur en direct (icône / fond de carte)
+
+L'icône et le fond de la carte suivent en direct l'attribut `rgb_color` de
+l'entité lumière, y compris pendant qu'une scène/DIY est active. Govee ne
+remonte pas toujours une couleur en temps réel pendant un effet dynamique
+(limitation de l'API/intégration, pas de la carte) : dans ce cas, la carte
+garde la dernière couleur connue plutôt que de retomber sur un blanc neutre.
+
+## Roadmap
+
 - Vérification / correction manuelle des mappings de scènes à confiance
   moyenne/faible listés dans `MAPPING_REVIEW.md`
