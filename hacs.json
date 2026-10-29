@@ -1,6 +1,7 @@
 {
-  "name": "Govee-like Light Card (HOLM)",
+  "name": "HOLM Govee Light Card",
   "render_readme": true,
   "content_in_root": false,
-  "filename": "holm-govee-like-light-card.js"
+  "filename": "holm-govee-light-card.js",
+  "homeassistant": "2025.1.0"
 }
