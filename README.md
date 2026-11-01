@@ -4,6 +4,8 @@
 ![Version](https://img.shields.io/github/v/release/kaaribou/holm-govee-light-card)
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2025.1%2B-03a9f4)
 
+🇫🇷 Français · [🇬🇧 English](README.en.md)
+
 **Vos lumières Govee dans une carte moderne : luminosité, couleur, température, scènes en vignettes et mode musique.**
 
 HOLM Govee Light Card est une carte Lovelace pensée pour l'intégration **[Govee (lasswellt/govee-homeassistant)](https://github.com/lasswellt/govee-homeassistant)**. Elle colle à son modèle d'entités : la lumière, les listes de scènes et de scènes DIY, et les réglages du mode musique.
@@ -20,6 +22,11 @@ HOLM Govee Light Card est une carte Lovelace pensée pour l'intégration **[Gove
 - 📂 **Panneaux repliables** : seuls l'en-tête, la luminosité et les onglets restent visibles, un toucher ouvre un panneau.
 
 ![Couleur et scènes](docs/images/carte.png)
+
+
+### 🆕 Nouveautés de la 1.5.0
+
+- 🌍 **La carte parle 8 langues** : français, anglais, allemand, espagnol, italien, néerlandais, portugais et polonais, éditeur compris. Elle suit la langue de votre profil Home Assistant (anglais si votre langue n'est pas traduite) ; l'option `language` permet d'en imposer une.
 
 ---
 
@@ -58,6 +65,7 @@ Sans `scene_entity` ni `diy_scene_entity`, l'onglet Scènes est désactivé ; l'
 
 | Option | Description | Par défaut |
 |---|---|---|
+| `language` | Langue : `fr`, `en`, `de`, `es`, `it`, `nl`, `pt`, `pl` | celle du profil |
 | `entity` | Lumière Govee (`light.*`) — **obligatoire** | — |
 | `name` | Nom affiché | nom de l'entité |
 | `icon` | Icône | selon l'appareil |
